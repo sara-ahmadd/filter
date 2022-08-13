@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <input type="text" placeholder="search..." />
+        <h2 class="company">company</h2>
+        <ul class="categories">
+          <li id="all">All</li>
+          <li id="ikea">Ikea</li>
+          <li id="marcos">Marcos</li>
+          <li id="caressa">Caressa</li>
+          <li id="liddy">Liddy</li>
+        </ul>
+      </div>
+      <div class="main">
+        <section class="products"></section>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="products.js"></script>
+  </body>
+</html>
